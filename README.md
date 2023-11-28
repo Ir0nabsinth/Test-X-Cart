@@ -25,7 +25,7 @@
 
 `$ git push origin second-branch` - отправляем локальный репозиторий на удаленный репозиторий, в ветку **"second-branch"**
 
-### 4. Подготавливаем первую ветку к слиянию через "pull request"
+### 4. Подготавливаем первую ветку к слиянию через `pull request`
 `$ git checkout first-branch` - переходим на ветку **"first-branch"**
 
 `$ nano id_rsa.pub` - открываем файл **"id_rsa.pub"** и вносим изменения 
@@ -36,7 +36,7 @@
 
 `$ git push origin first-branch` - отправляем локальный репозиторий на удаленный репозиторий в ветку **"first-branch"**
 
-### 5. Подготавливаем вторую ветку с конфликтом для "pull request"
+### 5. Подготавливаем вторую ветку с конфликтом для `pull request`
 `$ git checkout second-branch` - переходим на ветку **"second-branch"**
 
 `$ nano id_rsa.pub` - открываем файл **"id_rsa.pub"** и вносим изменения
