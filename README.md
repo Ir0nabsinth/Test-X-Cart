@@ -1,4 +1,6 @@
 # Test-X-Cart
+
+### 1. Создаём репозиторий
 `$ echo "# Test-X-Cart" >> README.md` - добавдяем заголовок **Test-X-Cart** в **README.md**
 
 `$ git init` - инициализируем новый репозиторий
@@ -13,14 +15,17 @@
 
 `$ git push origin master` - отправляем локальный репозиторий на удаленный репозиторий, в ветку **"master"**
 
+### 2. Создаём первую ветку
 `$ git checkout -b first-branch` - создаём новую ветку **"first-branch"**
 
 `$ git push origin first-branch` - отправляем локальный репозиторий на удаленный репозиторий, в ветку **"first-branch"**
 
+### 3. Создаём вторую ветку
 `$ git checkout -b second-branch` - создаём новую ветку **"second-branch"**
 
 `$ git push origin second-branch` - отправляем локальный репозиторий на удаленный репозиторий, в ветку **"second-branch"**
 
+### 4. Подготавливаем первую ветку к слиянию через "pull request"
 `$ git checkout first-branch` - переходим на ветку **"first-branch"**
 
 `$ nano id_rsa.pub` - открываем файл **"id_rsa.pub"** и вносим изменения 
@@ -31,6 +36,7 @@
 
 `$ git push origin first-branch` - отправляем локальный репозиторий на удаленный репозиторий в ветку **"first-branch"**
 
+### 5. Подготавливаем вторую ветку с конфликтом для "pull request"
 `$ git checkout second-branch` - переходим на ветку **"second-branch"**
 
 `$ nano id_rsa.pub` - открываем файл **"id_rsa.pub"** и вносим изменения
